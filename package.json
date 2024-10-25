@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "lessc --clean-css src/less/styles.less dist/styles.css",
+    "build-css-old": "lessc --compress --source-map --silent src/less/styles.less dist/styles.css",
     "watch-css": "less-watch-compiler src/less dist styles.less"
   },
   "keywords": [],
